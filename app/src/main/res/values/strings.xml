@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">List Gists</string>
+    <string name="empty">Empty</string>
+    <string name="id">ID: %s</string>
+    <string name="url">URL: %s</string>
+    <string name="file_name">File name: %s</string>
+    <string name="shared_count">Shared count: %s</string>
+    <string name="change_fav_state">Change favourite state</string>
+    <string name="favourite">Favourite</string>
+    <string name="favourite_is_changed">Favourite is changed</string>
+    <string name="pull_down_to_refresh">Pull down to refresh</string>
+
+    <!-- gist detail page -->
+    <string name="detail_id">ID</string>
+    <string name="detail_favourite">Favourite</string>
+    <string name="detail_url">URL</string>
+    <string name="detail_file_name">File name</string>
+    <string name="detail_shared_count">Shared count</string>
+    <string name="detail_forks_url">Forks url</string>
+    <string name="detail_commits_url">Commits url</string>
+    <string name="detail_description">Description</string>
+    <string name="detail_comments">Comments</string>
+</resources>

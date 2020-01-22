@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_gist_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="ID: 123456"/>
+    <TextView
+        android:id="@+id/text_gist_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ellipsize="end"
+        tools:text="URL: https://api.github.com/gists/1bc6d61000ffada2ea44eecae59c699f"/>
+    <TextView
+        android:id="@+id/text_gist_file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="File name: filename"/>
+    <TextView
+        android:id="@+id/text_gist_shared_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        tools:text="Shared count: 6"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/favourite"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/image_gist_favourite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_icon_not_favourite"/>
+    </LinearLayout>
+
+</LinearLayout>
